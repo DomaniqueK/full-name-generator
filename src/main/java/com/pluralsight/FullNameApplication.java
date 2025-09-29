@@ -29,7 +29,7 @@ public class FullNameApplication {
 
         name = name + " " + lastName.trim() + suffix;
 
-        System.out.printf("Full Name: %s %s %s %s,", firstName, middleName, lastName, suffix);
+        System.out.printf("Full Name: %s. %s %s %s", suffix, firstName, middleName, lastName);
 
 
 
