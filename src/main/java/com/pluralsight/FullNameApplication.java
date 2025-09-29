@@ -14,7 +14,7 @@ public class FullNameApplication {
         System.out.println("Please enter your last name:");
         String lastName = scanner.nextLine();
 
-        System.out.println("Please enter your first name:");
+        System.out.println("Please enter your middle name:");
         String middleName = scanner.nextLine();
         String name = firstName.trim();
         if (!middleName.isBlank());
@@ -28,6 +28,8 @@ public class FullNameApplication {
 
 
         name = name + " " + lastName.trim() + suffix;
+
+        System.out.printf("Full Name: %s %s %s %s,", firstName, middleName, lastName, suffix);
 
 
 
